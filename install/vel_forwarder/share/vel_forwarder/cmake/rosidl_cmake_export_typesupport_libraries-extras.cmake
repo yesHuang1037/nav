@@ -1,0 +1,1 @@
+/home/peony/navigation_ws/build/vel_forwarder/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

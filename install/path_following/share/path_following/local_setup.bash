@@ -1,0 +1,1 @@
+/home/peony/navigation_ws/build/path_following/ament_cmake_environment_hooks/local_setup.bash

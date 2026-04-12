@@ -1,0 +1,1 @@
+/home/peony/navigation_ws/build/vel_forwarder/rosidl_typesupport_introspection_c/vel_forwarder/msg/rosidl_typesupport_introspection_c__visibility_control.h
