@@ -1,0 +1,6 @@
+Invoking command in '/home/yes/桌面/nav/build/goal_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yes/桌面/nav/src/goal_pub -DCMAKE_INSTALL_PREFIX=/home/yes/桌面/nav/install/goal_pub
+Invoked command in '/home/yes/桌面/nav/build/goal_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yes/桌面/nav/src/goal_pub -DCMAKE_INSTALL_PREFIX=/home/yes/桌面/nav/install/goal_pub
+Invoking command in '/home/yes/桌面/nav/build/goal_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yes/桌面/nav/build/goal_pub -- -j32 -l32
+Invoked command in '/home/yes/桌面/nav/build/goal_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yes/桌面/nav/build/goal_pub -- -j32 -l32
+Invoking command in '/home/yes/桌面/nav/build/goal_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yes/桌面/nav/build/goal_pub
+Invoked command in '/home/yes/桌面/nav/build/goal_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yes/桌面/nav/build/goal_pub

@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target goal_manager_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/goal_manager_node.dir/src/manager.cpp.o[0m
+[100%] [32m[1mLinking CXX executable goal_manager_node[0m
+[100%] Built target goal_manager_node
+-- Install configuration: ""
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/lib/navigoal_manager/goal_manager_node
+-- Set runtime path of "/home/yes/桌面/nav/install/navigoal_manager/lib/navigoal_manager/goal_manager_node" to ""
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/launch
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/launch/navigoal_pub.launch.py
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/cfg
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/cfg/navigoal_param.yaml
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/ament_index/resource_index/package_run_dependencies/navigoal_manager
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/ament_index/resource_index/parent_prefix_path/navigoal_manager
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/environment/ament_prefix_path.sh
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/environment/ament_prefix_path.dsv
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/environment/path.sh
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/environment/path.dsv
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/local_setup.bash
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/local_setup.sh
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/local_setup.zsh
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/local_setup.dsv
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/package.dsv
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/ament_index/resource_index/packages/navigoal_manager
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/cmake/navigoal_managerConfig.cmake
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/cmake/navigoal_managerConfig-version.cmake
+-- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/package.xml

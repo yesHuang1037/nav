@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/peony/navigation_ws/src/goal_pub/src/multigoal_pub.cpp" "CMakeFiles/multigoal_pub_node.dir/src/multigoal_pub.cpp.o" "gcc" "CMakeFiles/multigoal_pub_node.dir/src/multigoal_pub.cpp.o.d"
+  "/home/yes/桌面/nav/src/goal_pub/src/multigoal_pub.cpp" "CMakeFiles/multigoal_pub_node.dir/src/multigoal_pub.cpp.o" "gcc" "CMakeFiles/multigoal_pub_node.dir/src/multigoal_pub.cpp.o.d"
   )
 
 # Targets to which this target links.

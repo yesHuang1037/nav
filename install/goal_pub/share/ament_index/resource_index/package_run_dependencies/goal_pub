@@ -1,1 +1,1 @@
-/home/peony/navigation_ws/build/goal_pub/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/goal_pub
+rclcpp;geometry_msgs;std_msgs;tf2;tf2_ros;ament_lint_auto;ament_lint_common

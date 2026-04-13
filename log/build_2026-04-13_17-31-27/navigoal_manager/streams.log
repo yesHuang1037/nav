@@ -1,0 +1,11 @@
+[0.007s] Invoking command in '/home/yes/桌面/nav/build/navigoal_manager': CMAKE_PREFIX_PATH=/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble /usr/bin/cmake --build /home/yes/桌面/nav/build/navigoal_manager -- -j32 -l32
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target goal_manager_node[0m
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/goal_manager_node.dir/src/manager.cpp.o[0m
+[5.121s] [100%] [32m[1mLinking CXX executable goal_manager_node[0m
+[5.340s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[5.340s] (.text+0x1b): undefined reference to `main'
+[5.367s] collect2: error: ld returned 1 exit status
+[5.368s] gmake[2]: *** [CMakeFiles/goal_manager_node.dir/build.make:167：goal_manager_node] 错误 1
+[5.368s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/goal_manager_node.dir/all] 错误 2
+[5.369s] gmake: *** [Makefile:146：all] 错误 2
+[5.371s] Invoked command in '/home/yes/桌面/nav/build/navigoal_manager' returned '2': CMAKE_PREFIX_PATH=/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble /usr/bin/cmake --build /home/yes/桌面/nav/build/navigoal_manager -- -j32 -l32

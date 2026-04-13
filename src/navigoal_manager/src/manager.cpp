@@ -85,6 +85,9 @@ void GoalManager::goalPoseCallback(const std_msgs::msg::UInt16MultiArray::Shared
     RCLCPP_INFO(this->get_logger(), "Parsed goal pose: (%f, %f)", pose_msg.pose.position.x, pose_msg.pose.position.y);
     goal_publisher_->publish(pose_msg);
 }
+
+}
+
 int main(int argc, char *argv[])
 {
     rclcpp::init(argc, argv);
@@ -92,5 +95,4 @@ int main(int argc, char *argv[])
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;
-}
 }

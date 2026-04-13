@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/peony/navigation_ws/src/goal_pub
+CMAKE_SOURCE_DIR = /home/yes/桌面/nav/src/goal_pub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/peony/navigation_ws/build/goal_pub
+CMAKE_BINARY_DIR = /home/yes/桌面/nav/build/goal_pub
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/peony/navigation_ws/build/goal_pub/CMakeFiles /home/peony/navigation_ws/build/goal_pub//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yes/桌面/nav/build/goal_pub/CMakeFiles /home/yes/桌面/nav/build/goal_pub//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/peony/navigation_ws/build/goal_pub/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yes/桌面/nav/build/goal_pub/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

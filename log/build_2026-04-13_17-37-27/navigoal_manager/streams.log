@@ -1,0 +1,30 @@
+[0.005s] Invoking command in '/home/yes/桌面/nav/build/navigoal_manager': CMAKE_PREFIX_PATH=/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble /usr/bin/cmake --build /home/yes/桌面/nav/build/navigoal_manager -- -j32 -l32
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target goal_manager_node[0m
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/goal_manager_node.dir/src/manager.cpp.o[0m
+[5.114s] [100%] [32m[1mLinking CXX executable goal_manager_node[0m
+[5.363s] [100%] Built target goal_manager_node
+[5.370s] Invoked command in '/home/yes/桌面/nav/build/navigoal_manager' returned '0': CMAKE_PREFIX_PATH=/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble /usr/bin/cmake --build /home/yes/桌面/nav/build/navigoal_manager -- -j32 -l32
+[5.377s] Invoking command in '/home/yes/桌面/nav/build/navigoal_manager': CMAKE_PREFIX_PATH=/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble /usr/bin/cmake --install /home/yes/桌面/nav/build/navigoal_manager
+[5.380s] -- Install configuration: ""
+[5.380s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/lib/navigoal_manager/goal_manager_node
+[5.383s] -- Set runtime path of "/home/yes/桌面/nav/install/navigoal_manager/lib/navigoal_manager/goal_manager_node" to ""
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/launch
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/launch/navigoal_pub.launch.py
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/cfg
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/cfg/navigoal_param.yaml
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/ament_index/resource_index/package_run_dependencies/navigoal_manager
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/ament_index/resource_index/parent_prefix_path/navigoal_manager
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/environment/ament_prefix_path.sh
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/environment/ament_prefix_path.dsv
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/environment/path.sh
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/environment/path.dsv
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/local_setup.bash
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/local_setup.sh
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/local_setup.zsh
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/local_setup.dsv
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/package.dsv
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/ament_index/resource_index/packages/navigoal_manager
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/cmake/navigoal_managerConfig.cmake
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/cmake/navigoal_managerConfig-version.cmake
+[5.383s] -- Installing: /home/yes/桌面/nav/install/navigoal_manager/share/navigoal_manager/package.xml
+[5.385s] Invoked command in '/home/yes/桌面/nav/build/navigoal_manager' returned '0': CMAKE_PREFIX_PATH=/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble /usr/bin/cmake --install /home/yes/桌面/nav/build/navigoal_manager

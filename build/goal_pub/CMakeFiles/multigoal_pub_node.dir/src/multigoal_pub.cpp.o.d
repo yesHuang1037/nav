@@ -1,7 +1,7 @@
 CMakeFiles/multigoal_pub_node.dir/src/multigoal_pub.cpp.o: \
- /home/peony/navigation_ws/src/goal_pub/src/multigoal_pub.cpp \
+ /home/yes/桌面/nav/src/goal_pub/src/multigoal_pub.cpp \
  /usr/include/stdc-predef.h \
- /home/peony/navigation_ws/src/goal_pub/include/goal_pub/multigoal_pub.h \
+ /home/yes/桌面/nav/src/goal_pub/include/goal_pub/multigoal_pub.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

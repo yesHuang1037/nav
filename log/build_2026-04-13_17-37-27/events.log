@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000141] (-) JobUnselected: {'identifier': 'detect_obs'}
+[0.000164] (-) JobUnselected: {'identifier': 'goal_pub'}
+[0.000358] (-) JobUnselected: {'identifier': 'mpc_follower'}
+[0.000581] (-) JobUnselected: {'identifier': 'path_following'}
+[0.000604] (-) JobUnselected: {'identifier': 'path_searching'}
+[0.000620] (-) JobUnselected: {'identifier': 'test_car'}
+[0.000636] (-) JobUnselected: {'identifier': 'vel_forwarder'}
+[0.000652] (navigoal_manager) JobQueued: {'identifier': 'navigoal_manager', 'dependencies': OrderedDict()}
+[0.000778] (navigoal_manager) JobStarted: {'identifier': 'navigoal_manager'}
+[0.004858] (navigoal_manager) JobProgress: {'identifier': 'navigoal_manager', 'progress': 'cmake'}
+[0.005625] (navigoal_manager) JobProgress: {'identifier': 'navigoal_manager', 'progress': 'build'}
+[0.005710] (navigoal_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yes/桌面/nav/build/navigoal_manager', '--', '-j32', '-l32'], 'cwd': '/home/yes/桌面/nav/build/navigoal_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yes'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yes'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.114.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2017'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f3047ed74bbef1bb7477950f69dca06b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yes/桌面/nav/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yes'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/yes/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/yes/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/BKLYN:@/tmp/.ICE-unix/2017,unix/BKLYN:/tmp/.ICE-unix/2017'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fffe0f31_183f_4d60_932a_1eb552845b69'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CU2MN3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d540dec9a.sock'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yes/桌面/nav/build/navigoal_manager'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f3047ed74bbef1bb7477950f69dca06b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble')]), 'shell': False}
+[0.035670] (navigoal_manager) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target goal_manager_node\x1b[0m\n'}
+[0.048902] (navigoal_manager) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/goal_manager_node.dir/src/manager.cpp.o\x1b[0m\n'}
+[0.099608] (-) TimerEvent: {}
+[0.199890] (-) TimerEvent: {}
+[0.300218] (-) TimerEvent: {}
+[0.400430] (-) TimerEvent: {}
+[0.500603] (-) TimerEvent: {}
+[0.600873] (-) TimerEvent: {}
+[0.701221] (-) TimerEvent: {}
+[0.801478] (-) TimerEvent: {}
+[0.901729] (-) TimerEvent: {}
+[1.002058] (-) TimerEvent: {}
+[1.102350] (-) TimerEvent: {}
+[1.202483] (-) TimerEvent: {}
+[1.302662] (-) TimerEvent: {}
+[1.402796] (-) TimerEvent: {}
+[1.503043] (-) TimerEvent: {}
+[1.603306] (-) TimerEvent: {}
+[1.703438] (-) TimerEvent: {}
+[1.803604] (-) TimerEvent: {}
+[1.903803] (-) TimerEvent: {}
+[2.004073] (-) TimerEvent: {}
+[2.104397] (-) TimerEvent: {}
+[2.204727] (-) TimerEvent: {}
+[2.305111] (-) TimerEvent: {}
+[2.405322] (-) TimerEvent: {}
+[2.505500] (-) TimerEvent: {}
+[2.605779] (-) TimerEvent: {}
+[2.706098] (-) TimerEvent: {}
+[2.806366] (-) TimerEvent: {}
+[2.906613] (-) TimerEvent: {}
+[3.006872] (-) TimerEvent: {}
+[3.107187] (-) TimerEvent: {}
+[3.207440] (-) TimerEvent: {}
+[3.307719] (-) TimerEvent: {}
+[3.407982] (-) TimerEvent: {}
+[3.508252] (-) TimerEvent: {}
+[3.608543] (-) TimerEvent: {}
+[3.708814] (-) TimerEvent: {}
+[3.809159] (-) TimerEvent: {}
+[3.909400] (-) TimerEvent: {}
+[4.009645] (-) TimerEvent: {}
+[4.109989] (-) TimerEvent: {}
+[4.210376] (-) TimerEvent: {}
+[4.310644] (-) TimerEvent: {}
+[4.410951] (-) TimerEvent: {}
+[4.511234] (-) TimerEvent: {}
+[4.611503] (-) TimerEvent: {}
+[4.711777] (-) TimerEvent: {}
+[4.812072] (-) TimerEvent: {}
+[4.912310] (-) TimerEvent: {}
+[5.012538] (-) TimerEvent: {}
+[5.112778] (-) TimerEvent: {}
+[5.114722] (navigoal_manager) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable goal_manager_node\x1b[0m\n'}
+[5.212966] (-) TimerEvent: {}
+[5.313264] (-) TimerEvent: {}
+[5.363867] (navigoal_manager) StdoutLine: {'line': b'[100%] Built target goal_manager_node\n'}
+[5.370156] (navigoal_manager) CommandEnded: {'returncode': 0}
+[5.370927] (navigoal_manager) JobProgress: {'identifier': 'navigoal_manager', 'progress': 'install'}
+[5.376918] (navigoal_manager) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yes/桌面/nav/build/navigoal_manager'], 'cwd': '/home/yes/桌面/nav/build/navigoal_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yes'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yes'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.114.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2017'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f3047ed74bbef1bb7477950f69dca06b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yes/桌面/nav/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yes'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yes'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/yes/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/yes/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/BKLYN:@/tmp/.ICE-unix/2017,unix/BKLYN:/tmp/.ICE-unix/2017'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fffe0f31_183f_4d60_932a_1eb552845b69'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CU2MN3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d540dec9a.sock'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yes/桌面/nav/build/navigoal_manager'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f3047ed74bbef1bb7477950f69dca06b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble')]), 'shell': False}
+[5.380817] (navigoal_manager) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.380912] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/lib/navigoal_manager/goal_manager_node\n'}
+[5.383156] (navigoal_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/lib/navigoal_manager/goal_manager_node" to ""\n'}
+[5.383437] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/launch\n'}
+[5.383487] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/launch/navigoal_pub.launch.py\n'}
+[5.383518] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/cfg\n'}
+[5.383664] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/cfg/navigoal_param.yaml\n'}
+[5.383751] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/ament_index/resource_index/package_run_dependencies/navigoal_manager\n'}
+[5.383783] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/ament_index/resource_index/parent_prefix_path/navigoal_manager\n'}
+[5.383810] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/environment/ament_prefix_path.sh\n'}
+[5.383837] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/environment/ament_prefix_path.dsv\n'}
+[5.383863] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/environment/path.sh\n'}
+[5.383889] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/environment/path.dsv\n'}
+[5.383928] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/local_setup.bash\n'}
+[5.383952] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/local_setup.sh\n'}
+[5.383976] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/local_setup.zsh\n'}
+[5.384000] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/local_setup.dsv\n'}
+[5.384024] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/package.dsv\n'}
+[5.384072] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/ament_index/resource_index/packages/navigoal_manager\n'}
+[5.384101] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/cmake/navigoal_managerConfig.cmake\n'}
+[5.384126] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/cmake/navigoal_managerConfig-version.cmake\n'}
+[5.384167] (navigoal_manager) StdoutLine: {'line': b'-- Installing: /home/yes/\xe6\xa1\x8c\xe9\x9d\xa2/nav/install/navigoal_manager/share/navigoal_manager/package.xml\n'}
+[5.385244] (navigoal_manager) CommandEnded: {'returncode': 0}
+[5.392782] (navigoal_manager) JobEnded: {'identifier': 'navigoal_manager', 'rc': 0}
+[5.393152] (-) EventReactorShutdown: {}

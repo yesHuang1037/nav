@@ -1,0 +1,4 @@
+Invoking command in '/home/yes/桌面/nav/build/navigoal_manager': CMAKE_PREFIX_PATH=/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble /usr/bin/cmake --build /home/yes/桌面/nav/build/navigoal_manager -- -j32 -l32
+Invoked command in '/home/yes/桌面/nav/build/navigoal_manager' returned '0': CMAKE_PREFIX_PATH=/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble /usr/bin/cmake --build /home/yes/桌面/nav/build/navigoal_manager -- -j32 -l32
+Invoking command in '/home/yes/桌面/nav/build/navigoal_manager': CMAKE_PREFIX_PATH=/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble /usr/bin/cmake --install /home/yes/桌面/nav/build/navigoal_manager
+Invoked command in '/home/yes/桌面/nav/build/navigoal_manager' returned '0': CMAKE_PREFIX_PATH=/home/yes/桌面/nav/install/goal_pub:/opt/ros/humble /usr/bin/cmake --install /home/yes/桌面/nav/build/navigoal_manager

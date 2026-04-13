@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/peony/navigation_ws/src/navigoal_manager/src/manager.cpp" "CMakeFiles/goal_manager_node.dir/src/manager.cpp.o" "gcc" "CMakeFiles/goal_manager_node.dir/src/manager.cpp.o.d"
+  "/home/yes/桌面/nav/src/navigoal_manager/src/manager.cpp" "CMakeFiles/goal_manager_node.dir/src/manager.cpp.o" "gcc" "CMakeFiles/goal_manager_node.dir/src/manager.cpp.o.d"
   )
 
 # Targets to which this target links.

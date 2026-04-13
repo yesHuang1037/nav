@@ -2,6 +2,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
 #include "std_msgs/msg/u_int8.hpp"
+#include "std_msgs/msg/u_int16_multi_array.hpp"
 #include <cstdint>
 #include <vector>
 #include <utility>

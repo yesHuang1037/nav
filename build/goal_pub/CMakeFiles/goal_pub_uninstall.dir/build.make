@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/peony/navigation_ws/src/goal_pub
+CMAKE_SOURCE_DIR = /home/yes/桌面/nav/src/goal_pub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/peony/navigation_ws/build/goal_pub
+CMAKE_BINARY_DIR = /home/yes/桌面/nav/build/goal_pub
 
 # Utility rule file for goal_pub_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/goal_pub_uninstall.dir/compiler_depend.make
 include CMakeFiles/goal_pub_uninstall.dir/progress.make
 
 CMakeFiles/goal_pub_uninstall:
-	/usr/bin/cmake -P /home/peony/navigation_ws/build/goal_pub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/yes/桌面/nav/build/goal_pub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 goal_pub_uninstall: CMakeFiles/goal_pub_uninstall
 goal_pub_uninstall: CMakeFiles/goal_pub_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/goal_pub_uninstall.dir/clean:
 .PHONY : CMakeFiles/goal_pub_uninstall.dir/clean
 
 CMakeFiles/goal_pub_uninstall.dir/depend:
-	cd /home/peony/navigation_ws/build/goal_pub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peony/navigation_ws/src/goal_pub /home/peony/navigation_ws/src/goal_pub /home/peony/navigation_ws/build/goal_pub /home/peony/navigation_ws/build/goal_pub /home/peony/navigation_ws/build/goal_pub/CMakeFiles/goal_pub_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yes/桌面/nav/build/goal_pub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yes/桌面/nav/src/goal_pub /home/yes/桌面/nav/src/goal_pub /home/yes/桌面/nav/build/goal_pub /home/yes/桌面/nav/build/goal_pub /home/yes/桌面/nav/build/goal_pub/CMakeFiles/goal_pub_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/goal_pub_uninstall.dir/depend
 

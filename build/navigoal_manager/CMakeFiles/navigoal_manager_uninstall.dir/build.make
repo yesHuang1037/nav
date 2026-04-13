@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/peony/navigation_ws/src/navigoal_manager
+CMAKE_SOURCE_DIR = /home/yes/桌面/nav/src/navigoal_manager
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/peony/navigation_ws/build/navigoal_manager
+CMAKE_BINARY_DIR = /home/yes/桌面/nav/build/navigoal_manager
 
 # Utility rule file for navigoal_manager_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/navigoal_manager_uninstall.dir/compiler_depend.make
 include CMakeFiles/navigoal_manager_uninstall.dir/progress.make
 
 CMakeFiles/navigoal_manager_uninstall:
-	/usr/bin/cmake -P /home/peony/navigation_ws/build/navigoal_manager/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/yes/桌面/nav/build/navigoal_manager/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 navigoal_manager_uninstall: CMakeFiles/navigoal_manager_uninstall
 navigoal_manager_uninstall: CMakeFiles/navigoal_manager_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/navigoal_manager_uninstall.dir/clean:
 .PHONY : CMakeFiles/navigoal_manager_uninstall.dir/clean
 
 CMakeFiles/navigoal_manager_uninstall.dir/depend:
-	cd /home/peony/navigation_ws/build/navigoal_manager && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peony/navigation_ws/src/navigoal_manager /home/peony/navigation_ws/src/navigoal_manager /home/peony/navigation_ws/build/navigoal_manager /home/peony/navigation_ws/build/navigoal_manager /home/peony/navigation_ws/build/navigoal_manager/CMakeFiles/navigoal_manager_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yes/桌面/nav/build/navigoal_manager && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yes/桌面/nav/src/navigoal_manager /home/yes/桌面/nav/src/navigoal_manager /home/yes/桌面/nav/build/navigoal_manager /home/yes/桌面/nav/build/navigoal_manager /home/yes/桌面/nav/build/navigoal_manager/CMakeFiles/navigoal_manager_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/navigoal_manager_uninstall.dir/depend
 
